@@ -64,6 +64,7 @@ namespace cycfi::q
       float                   envelope() const           { return _synth_env_val; }
       float                   get_frequency() const      { return _frequency; }
       float                   signal_envelope() const    { return _fast_env(); }
+      pitch_detector          get_pd() const             { return _pd;        }
 
    private:
 
